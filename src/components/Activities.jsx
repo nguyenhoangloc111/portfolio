@@ -182,8 +182,7 @@ export default function Activities() {
           className="mt-5 text-center"
         >
           <p className="lead mb-4" style={{ color: "var(--text-muted)" }}>
-            Tôi luôn sẵn sàng để học hỏi và thách thức bản thân với các dự án
-            mới!
+            I'm always ready to learn, take on challenges, and grow through new projects!
           </p>
           <motion.a
             whileHover={{ scale: 1.05 }}
@@ -191,7 +190,7 @@ export default function Activities() {
             href="#contact"
             className="btn btn-primary-custom"
           >
-            Liên hệ tôi
+            Contact Me
           </motion.a>
         </motion.div>
       </div>
