@@ -69,7 +69,8 @@ export default function Contact() {
             }}
           ></div>
           <p className="mt-3 lead" style={{ color: "var(--text-muted)" }}>
-            Hãy liên hệ với tôi nếu bạn muốn hợp tác hoặc có bất kỳ câu hỏi nào
+            Feel free to reach out if you'd like to collaborate or have any
+            questions!
           </p>
         </motion.div>
 
@@ -174,27 +175,23 @@ export default function Contact() {
               >
                 <CheckCircle size={20} />
                 <p className="mb-0 fw-semibold">
-                  Cảm ơn! Tôi sẽ sớm liên hệ với bạn.
+                  Thank you! I'll get back to you soon.
                 </p>
               </motion.div>
             )}
             <div className="mb-4">
-              <label className="form-label fw-semibold small">
-                Tên của bạn
-              </label>
+              <label className="form-label fw-semibold small">Your Name</label>
               <input
                 type="text"
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="Nhập tên của bạn"
+                placeholder="Enter your name"
                 className="form-control"
               />
             </div>
             <div className="mb-4">
-              <label className="form-label fw-semibold small">
-                Email của bạn
-              </label>
+              <label className="form-label fw-semibold small">Your Email</label>
               <input
                 type="email"
                 name="email"
@@ -205,12 +202,12 @@ export default function Contact() {
               />
             </div>
             <div className="mb-4">
-              <label className="form-label fw-semibold small">Tin nhắn</label>
+              <label className="form-label fw-semibold small">Message</label>
               <textarea
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="Viết tin nhắn của bạn..."
+                placeholder="Write your message..."
                 rows="5"
                 className="form-control"
               ></textarea>
@@ -221,13 +218,13 @@ export default function Contact() {
               type="submit"
               className="btn btn-primary-custom w-100 d-flex align-items-center justify-content-center gap-2"
             >
-              <Send size={20} /> Gửi tin nhắn
+              <Send size={20} /> Send Message
             </motion.button>
             <p
               className="small text-center mt-3 mb-0"
               style={{ color: "var(--text-muted)" }}
             >
-              Hoặc liên hệ trực tiếp qua email: locnguynhoang2026@gmail.com
+              Or contact me directly at: locnguynhoang2026@gmail.com
             </p>
           </motion.form>
         </div>
@@ -240,7 +237,7 @@ export default function Contact() {
           className="text-center border-top mt-5 pt-4"
         >
           <p className="mb-4" style={{ color: "var(--text-muted)" }}>
-            Kết nối với tôi trên mạng xã hội
+            Connect with me on social media
           </p>
           <div className="d-flex justify-content-center gap-3">
             <motion.a

@@ -5,21 +5,21 @@ export default function About() {
   const highlights = [
     {
       icon: Code2,
-      title: "Modern Development",
+      title: "Fullstack Development",
       description:
-        "Tôi tập trung vào việc xây dựng giao diện web hiện đại, responsive với công nghệ frontend mới nhất.",
+        "I specialize in building complete web applications with modern Node.js backend and React frontend, using clean architecture and best practices.",
     },
     {
       icon: Users,
-      title: "Team Player",
+      title: "Team Collaboration",
       description:
-        "Luôn sẵn sàng hợp tác, chia sẻ kinh nghiệm và hỗ trợ đồng đội để hoàn thành dự án chung.",
+        "I'm committed to working effectively with teams, sharing knowledge, and supporting colleagues to deliver successful projects together.",
     },
     {
       icon: Lightbulb,
       title: "Problem Solver",
       description:
-        "Yêu thích tìm giải pháp sáng tạo cho các vấn đề phức tạp trong phát triển web.",
+        "I enjoy finding creative solutions to complex challenges in web development and continuously improving my technical expertise.",
     },
   ];
 
@@ -79,24 +79,25 @@ export default function About() {
                 className="mb-4"
                 style={{ fontSize: "1.1rem", lineHeight: "1.8" }}
               >
-                Xin chào! Tôi là{" "}
-                <span className="gradient-text fw-bold">Nguyễn Hoàng Lộc</span>,
-                một sinh viên ngành Kỹ thuật phần mềm tại BTEC FPT với niềm đam
-                mê sâu sắc về phát triển web.
+                Hello! I'm{" "}
+                <span className="gradient-text fw-bold">Nguyen Hoang Loc</span>,
+                a Software Engineering student at BTEC FPT with a deep passion
+                for web development.
               </p>
               <p
                 className="mb-4"
                 style={{ fontSize: "1.1rem", lineHeight: "1.8" }}
               >
-                Tôi định hướng trở thành Web Developer chuyên nghiệp, chuyên tâm
-                vào việc xây dựng giao diện người dùng (Frontend) hiện đại,
-                responsive và trực quan. Luôn chủ động học hỏi các công nghệ mới
-                và áp dụng chúng vào các dự án thực tế.
+                I'm aspiring to become a professional Fullstack Developer, with
+                a focus on building robust backend systems using Node.js and
+                Express.js, combined with modern React frontends. I'm committed
+                to continuous learning, exploring new technologies, and applying
+                them to real-world projects.
               </p>
               <p style={{ fontSize: "1.1rem", lineHeight: "1.8" }}>
-                Tôi tin rằng code sạch, giao diện thân thiện, và trải nghiệm
-                người dùng tốt là chìa khóa để xây dựng những sản phẩm web thành
-                công.
+                I believe that clean code, intuitive user interfaces, and solid
+                backend architecture are essential keys to building successful
+                web products.
               </p>
             </div>
           </motion.div>

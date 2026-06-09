@@ -5,30 +5,30 @@ export default function Activities() {
   const activities = [
     {
       icon: Zap,
-      title: "Khóa học Frontend & Backend",
+      title: "Frontend & Backend Courses",
       description:
-        "Tham gia các khóa học từ 28Tech để nâng cao kỹ năng lập trình frontend và backend",
+        "Completed comprehensive courses from 28Tech to enhance skills in both frontend development with React and backend development with Node.js",
       color: "#0099ff",
     },
     {
       icon: Users,
-      title: "Workshop Tiếng Anh",
+      title: "English Workshop",
       description:
-        "Tham gia các workshop cải thiện kỹ năng tiếng Anh và kỹ năng giao tiếp chuyên nghiệp",
+        "Participated in English language workshops to improve technical documentation reading comprehension and professional communication skills",
       color: "#00cc66",
     },
     {
       icon: Lightbulb,
-      title: "Học hỏi Kiến thức chuyên ngành",
+      title: "Continuous Learning",
       description:
-        "Liên tục cập nhật các công nghệ mới và tham gia các workshop về phát triển phần mềm",
+        "Actively staying updated with the latest technologies and participating in workshops on software development, particularly in Node.js and databases",
       color: "#9933ff",
     },
     {
       icon: Trophy,
-      title: "Phát triển Dự án cá nhân",
+      title: "Personal Projects Development",
       description:
-        "Thực hành lập trình qua việc xây dựng các dự án cá nhân và tham gia các cuộc thi",
+        "Practicing and developing practical skills by building multiple fullstack projects, focusing on clean code and best practices",
       color: "#ff6600",
     },
   ];
@@ -64,7 +64,7 @@ export default function Activities() {
           viewport={{ once: true }}
           className="mb-5 text-center"
         >
-          <h2 className="section-title">Activities & Learning</h2>
+          <h2 className="section-title">Growth & Learning</h2>
           <div
             style={{
               height: "4px",

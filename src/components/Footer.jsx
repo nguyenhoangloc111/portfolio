@@ -29,10 +29,10 @@ export default function Footer() {
               NHL
             </h5>
             <p className="small" style={{ color: "#ffffff" }}>
-              Frontend Developer | Web Enthusiast
+              Fullstack Developer | Node.js Specialist
             </p>
             <p className="small" style={{ color: "#b3e5ff" }}>
-              Building beautiful web experiences
+              Building robust web applications
             </p>
           </motion.div>
 

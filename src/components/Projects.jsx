@@ -5,45 +5,52 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Website Thương mại điện tử (E-commerce)",
+      title: "Product Management System",
       description:
-        "Website bán trái cây trực tuyến phát triển bằng HTML5, CSS3, JavaScript, Bootstrap 5, PHP và MySQL.",
+        "A fullstack web application for managing products with features like creation, image upload, search, filtering, and pagination. Built using MVC architecture with Node.js backend.",
       technologies: [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "Pug",
         "Bootstrap 5",
-        "PHP",
-        "MySQL",
       ],
       features: [
-        "Responsive Web Design",
-        "Đăng ký / đăng nhập",
-        "Validation form bằng JavaScript",
-        "Giỏ hàng tăng giảm số lượng",
-        "Tính tổng tiền tự động",
-        "Session handling bằng PHP",
+        "MVC Architecture",
+        "Product Management (CRUD)",
+        "Image Upload with Multer",
+        "Advanced Search & Filtering",
+        "Pagination",
+        "Bulk Actions",
       ],
-      github: "https://github.com/nguyenhoangloc111/demo_ecommerce",
-      live: "https://github.com/nguyenhoangloc111/demo_ecommerce",
+      github:
+        "https://github.com/nguyenhoangloc111/Product-Management-System-SuperMini",
+      live: "https://github.com/nguyenhoangloc111/Product-Management-System-SuperMini",
       imageGradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
     },
     {
       id: 2,
       title: "Personal Portfolio Website",
       description:
-        "Website portfolio cá nhân hiện đại với thiết kế responsive, dark mode, và animations mượt mà.",
-      technologies: ["React", "Bootstrap", "Framer Motion", "JavaScript"],
+        "Modern, responsive portfolio website showcasing my skills and projects. Built with React and featuring dark mode, smooth animations, and interactive components.",
+      technologies: [
+        "React",
+        "Bootstrap",
+        "Framer Motion",
+        "JavaScript",
+        "Vite",
+      ],
       features: [
-        "Responsive design",
-        "Dark mode toggle",
-        "Smooth scroll animations",
+        "Responsive Design",
+        "Dark Mode Toggle",
+        "Smooth Animations",
         "Modern UI/UX",
-        "Contact form",
-        "Project showcase",
+        "Contact Form",
+        "Project Showcase",
       ],
       github: "https://github.com/nguyenhoangloc111",
-      live: "#",
+      live: "https://portfolio-nguyenhoangloc.vercel.app/",
       imageGradient: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
     },
   ];
@@ -215,7 +222,7 @@ export default function Projects() {
           className="text-center mt-5"
         >
           <p className="lead mb-4" style={{ color: "var(--text-muted)" }}>
-            Muốn xem thêm dự án?
+            Want to see more projects?
           </p>
           <motion.a
             whileHover={{ scale: 1.05 }}
@@ -225,7 +232,7 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="btn btn-primary-custom d-inline-flex align-items-center gap-2"
           >
-            <Github size={20} /> Xem tất cả dự án trên GitHub
+            <Github size={20} /> View All Projects on GitHub
           </motion.a>
         </motion.div>
       </div>

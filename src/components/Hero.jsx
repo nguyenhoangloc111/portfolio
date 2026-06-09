@@ -4,7 +4,7 @@ import { Download, ExternalLink } from "lucide-react";
 
 export default function Hero() {
   const [typedText, setTypedText] = useState("");
-  const fullText = "Frontend Developer | Web Enthusiast";
+  const fullText = "Fullstack Developer | Node.js Specialist";
 
   useEffect(() => {
     let index = 0;
@@ -20,9 +20,9 @@ export default function Hero() {
   }, []);
 
   const downloadCV = () => {
-    // Tải file PDF từ thư mục public
+    // Download PDF file from public folder
     const link = document.createElement("a");
-    link.href = "/CV_Fontend_NguyenHoangLoc.pdf";
+    link.href = "/CV_Fullstack_NguyenHoangLoc.pdf";
     link.download = "Nguyen_Hoang_Loc_CV.pdf";
     link.style.display = "none";
     document.body.appendChild(link);
@@ -78,10 +78,11 @@ export default function Hero() {
                 color: "var(--text-muted)",
               }}
             >
-              Sinh viên ngành Kỹ thuật phần mềm tại BTEC FPT, định hướng trở
-              thành Web Developer chuyên nghiệp. Yêu thích phát triển giao diện
-              website hiện đại, responsive và luôn chủ động học hỏi công nghệ
-              mới.
+              Software Engineering student at BTEC FPT, aspiring to become a
+              professional Fullstack Developer. Passionate about building
+              modern, responsive web applications with Node.js backend and React
+              frontend. Committed to writing clean code, continuous learning,
+              and staying updated with the latest technologies.
             </motion.p>
 
             {/* CTA Buttons */}

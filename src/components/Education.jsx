@@ -3,8 +3,8 @@ import { BookOpen, Award, Calendar } from "lucide-react";
 
 export default function Education() {
   const educationData = {
-    school: "Cao đẳng Anh quốc BTEC FPT",
-    degree: "Kỹ thuật phần mềm",
+    school: "BTEC FPT International College",
+    degree: "Software Engineering",
     period: "2023 - 2026",
     courses: [
       { name: "Website Design & Development", grade: "Merit" },
@@ -18,13 +18,13 @@ export default function Education() {
         status: "Completed",
       },
       {
-        title: "English Workshop",
-        org: "Cao đẳng Anh quốc BTEC FPT",
+        title: "Node.js & Express.js Development",
+        org: "Self-learning & Online Courses",
         status: "Completed",
       },
       {
-        title: "Web Development Fundamentals",
-        org: "Online và Cao đẳng Anh quốc BTEC FPT",
+        title: "MongoDB & Database Design",
+        org: "Self-learning & Online Courses",
         status: "Completed",
       },
     ],
@@ -124,7 +124,7 @@ export default function Education() {
 
             {/* Courses */}
             <div className="mt-4 pt-4 border-top">
-              <h6 className="fw-bold mb-3">Các môn học nổi bật:</h6>
+              <h6 className="fw-bold mb-3">Relevant Courses:</h6>
               <motion.div
                 variants={containerVariants}
                 initial="hidden"
@@ -159,7 +159,7 @@ export default function Education() {
           transition={{ delay: 0.3, duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h5 className="fw-bold mb-4">Đào tạo bổ sung</h5>
+          <h5 className="fw-bold mb-4">Additional Learning</h5>
           <motion.div
             variants={containerVariants}
             initial="hidden"

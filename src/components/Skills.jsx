@@ -2,18 +2,19 @@ import { motion } from "framer-motion";
 
 export default function Skills() {
   const skillsData = {
-    Frontend: ["HTML5", "CSS3", "Bootstrap 5", "JavaScript", "React cơ bản"],
-    Backend: ["Node.js cơ bản", "Express.js cơ bản", "PHP cơ bản"],
-    Database: ["MySQL", "MongoDB"],
-    Tools: ["Git & GitHub"],
+    Backend: ["Node.js", "Express.js", "REST API", "JWT Authentication"],
+    Frontend: ["HTML5", "CSS3", "Bootstrap 5", "JavaScript", "React"],
+    Database: ["MongoDB", "Mongoose", "MySQL"],
+    Tools: ["Git & GitHub", "Postman", "Vercel", "Multer"],
   };
 
   const softSkills = [
-    "Quản lý thời gian",
-    "Làm việc nhóm",
-    "Giải quyết vấn đề",
-    "Chủ động học hỏi",
-    "Đọc hiểu tài liệu tiếng Anh cơ bản",
+    "Time Management",
+    "Team Collaboration",
+    "Problem Solving",
+    "Self-learning & Research",
+    "English Documentation Reading",
+    "AI Tools Proficiency",
   ];
 
   const containerVariants = {
