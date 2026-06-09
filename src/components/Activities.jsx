@@ -182,7 +182,8 @@ export default function Activities() {
           className="mt-5 text-center"
         >
           <p className="lead mb-4" style={{ color: "var(--text-muted)" }}>
-            I'm always ready to learn, take on challenges, and grow through new projects!
+            I'm always ready to learn, take on challenges, and grow through new
+            projects!
           </p>
           <motion.a
             whileHover={{ scale: 1.05 }}

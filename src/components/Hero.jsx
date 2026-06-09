@@ -22,8 +22,8 @@ export default function Hero() {
   const downloadCV = () => {
     // Download PDF file from public folder
     const link = document.createElement("a");
-    link.href = "/CV_Fullstack_NguyenHoangLoc.pdf";
-    link.download = "Nguyen_Hoang_Loc_CV.pdf";
+    link.href = "/NguyenHoangLoc_Fullstack_NodeJS_Intern_CV.pdf";
+    link.download = "NguyenHoangLoc_Fullstack_NodeJS_Intern_CV.pdf";
     link.style.display = "none";
     document.body.appendChild(link);
     link.click();
